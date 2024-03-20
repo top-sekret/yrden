@@ -1,0 +1,12 @@
+BasedOnStyle: GNU
+Cpp11BracedListStyle: true
+IncludeBlocks: Regroup
+IncludeCategories:
+  - Regex: '^<[[:alnum:]_]+>$'
+    Priority: 1
+  - Regex: '^<'
+    Priority: 2
+  - Regex: '^"'
+    Priority: 3
+SortIncludes: CaseInsensitive
+Standard: Latest
